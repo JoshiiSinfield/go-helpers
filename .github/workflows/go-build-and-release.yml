@@ -28,7 +28,7 @@ jobs:
       run: go build -v .
     
     - name: Release on Github
-      uses: codfish/semantic-release-action@master
+      uses: codfish/semantic-release-action@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
