@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+## [1.4.1](https://github.com/JoshiiSinfield/go-helpers/compare/v1.4.0...v1.4.1) (2020-02-03)
+
+
+### Bug Fixes
+
+* Correct the name of the package to match folder ([5ed7195](https://github.com/JoshiiSinfield/go-helpers/commit/5ed719549a131e57b64b4e3afd83348d7b2220ca))
+
 # [1.4.0](https://github.com/JoshiiSinfield/go-helpers/compare/v1.3.0...v1.4.0) (2020-02-03)
 
 
