@@ -5,6 +5,22 @@ All notable changes to this terraform will be documented in this file.
 
 ### Bug Fixes
 
+* added s3 events helper also ([39163da](https://github.com/JoshiiSinfield/go-helpers/commit/39163dac2a124b345a0dccc10c1f4f8fb1785bad))
+* ensure function is exported ([f0409e1](https://github.com/JoshiiSinfield/go-helpers/commit/f0409e10d653b6c10e9c2d78cc41dae5b9998895))
+
+
+### Features
+
+* add extra services ([bfd7b4a](https://github.com/JoshiiSinfield/go-helpers/commit/bfd7b4a5f794252a01d2501d3972254b215a4e0a))
+* Add Terratest terraform options, s3 select input params helper and getEnv helper ([a19a087](https://github.com/JoshiiSinfield/go-helpers/commit/a19a087919378548118566eae3ba35b6e983100b))
+* go fmt && Add function for reading SNS event from a JSON file ([08f3a71](https://github.com/JoshiiSinfield/go-helpers/commit/08f3a714824fa3064f55a1d9c6151718554d5a15))
+* Update Readme for first release ([071aa4b](https://github.com/JoshiiSinfield/go-helpers/commit/071aa4b0020ff6e1f291155c658911fc87ee7cae))
+
+# 1.0.0 (2020-02-03)
+
+
+### Bug Fixes
+
 * ensure function is exported ([f0409e1](https://github.com/JoshiiSinfield/go-helpers/commit/f0409e10d653b6c10e9c2d78cc41dae5b9998895))
 
 
