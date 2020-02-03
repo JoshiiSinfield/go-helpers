@@ -2,4 +2,9 @@
 
 A selection of helper functions for go that I find myself using frequently.
 
-These are intially AWS centric.
+Currently available for 
+S3
+Session
+STS
+
+Will be adding more as I need/create them
