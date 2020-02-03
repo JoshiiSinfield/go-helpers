@@ -37,7 +37,7 @@ func CreatePutObjectParams(buffer []byte, bucket, filePath string) *s3.PutObject
 	}
 }
 
-func CreateSelectObjectContectParams(bucket, key, expression string, ) *s3.SelectObjectContentInput {
+func CreateSelectObjectContectParams(bucket, key, expression string) *s3.SelectObjectContentInput {
 	return &s3.SelectObjectContentInput{
 		Bucket:               aws.String(bucket),
 		Key:                  aws.String(key),
