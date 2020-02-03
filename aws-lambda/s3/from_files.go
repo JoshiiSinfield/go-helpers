@@ -1,4 +1,4 @@
-package sns
+package s3
 
 import (
 	"encoding/json"
