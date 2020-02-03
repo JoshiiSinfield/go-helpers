@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+# [1.3.0](https://github.com/JoshiiSinfield/go-helpers/compare/v1.2.1...v1.3.0) (2020-02-03)
+
+
+### Features
+
+* go fmt && Add function for reading SNS event from a JSON file ([c2a4bc2](https://github.com/JoshiiSinfield/go-helpers/commit/c2a4bc213b302d489e4394193c8c038634171c59))
+
 ## [1.2.1](https://github.com/JoshiiSinfield/go-helpers/compare/v1.2.0...v1.2.1) (2020-02-03)
 
 
