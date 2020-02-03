@@ -36,3 +36,29 @@ func CreatePutObjectParams(buffer []byte, bucket, filePath string) *s3.PutObject
 		Body:   bytes.NewReader(buffer),
 	}
 }
+
+func CreateSelectObjectContectParams(bucket, key, expression string, ) *s3.SelectObjectContentInput {
+	return &s3.SelectObjectContentInput{
+		Bucket:               aws.String(bucket),
+		Key:                  aws.String(key),
+		Expression:           aws.String(expression),
+		ExpressionType:       aws.String("SQL"),
+		InputSerialization:   nil,
+		OutputSerialization:  nil,
+		RequestProgress:      nil,
+		SSECustomerAlgorithm: nil,
+		SSECustomerKey:       nil,
+		SSECustomerKeyMD5:    nil,
+		ScanRange:            nil,
+	}
+}
+
+func CreateS3InputSerializationCSV(compressionType string) *s3.InputSerialization {
+	return &s3.InputSerialization{
+		CompressionType: nil,
+		CSV: &s3.CSVInput{
+			FileHeaderInfo: aws.String("Use"),
+			FieldDelimiter: aws.String(" "),
+		},
+	}
+}
