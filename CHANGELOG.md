@@ -1,5 +1,13 @@
 All notable changes to this terraform will be documented in this file.
 
+## [1.4.2](https://github.com/JoshiiSinfield/go-helpers/compare/v1.4.1...v1.4.2) (2020-02-03)
+
+
+### Bug Fixes
+
+* add parsing of an S3EventRecord to get bucket and key ([69474ad](https://github.com/JoshiiSinfield/go-helpers/commit/69474ad84eed77f54e5249293a0b08b8d2f19a4f))
+* correct package again ([b6f9ad6](https://github.com/JoshiiSinfield/go-helpers/commit/b6f9ad60bf09d6896f1e0cda1b93b6b258cee830))
+
 ## [1.4.1](https://github.com/JoshiiSinfield/go-helpers/compare/v1.4.0...v1.4.1) (2020-02-03)
 
 
