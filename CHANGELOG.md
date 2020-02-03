@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+# [1.4.0](https://github.com/JoshiiSinfield/go-helpers/compare/v1.3.0...v1.4.0) (2020-02-03)
+
+
+### Features
+
+* update readme for new release ([3896634](https://github.com/JoshiiSinfield/go-helpers/commit/3896634a49879d0dda54d30e1ab698cfdd10bd43))
+
 # 1.0.0 (2020-02-03)
 
 
