@@ -6,9 +6,11 @@
 
 A selection of helper functions for go that I find myself using frequently.
 
-Currently available for 
-S3
-Session
-STS
+Currently available for   
+* S3  
+* Session  
+* STS  
+* aws-lambda-go events helpers
+* Terratest Terraform options
 
 Will be adding more as I need/create them
